@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.tatsme.popularmovies.MovieDetails">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/movie_title"
+            android:text="@string/movie_title"
+            android:gravity="top"
+            android:textAlignment="center"
+            android:paddingBottom="20dp"
+            android:textSize="40dp"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"/>
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/movie_poster"
+            android:contentDescription="@string/movie_image"
+            android:src="@mipmap/ic_launcher"
+            android:paddingBottom="20dp"
+            android:layout_alignParentLeft="true"
+            android:layout_below="@+id/movie_title"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/movie_release_date"
+            android:text="@string/movie_release_date"
+            android:paddingBottom="20dp"
+            android:paddingRight="20dp"
+            android:layout_alignParentRight="true"
+            android:layout_below="@+id/movie_title"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/movie_vote_average"
+            android:text="@string/movie_rating"
+            android:layout_below="@+id/movie_release_date"
+            android:layout_alignParentRight="true"
+            android:paddingBottom="20dp"
+            android:paddingRight="20dp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/movie_plot_synopsis"
+            android:text="@string/movie_synopsis"
+            android:textSize="15sp"
+            android:paddingTop="20dp"
+            android:paddingRight="20dp"
+            android:paddingLeft="20dp"
+            android:layout_below="@+id/movie_poster"/>
+
+    </RelativeLayout>
+
+</ScrollView>

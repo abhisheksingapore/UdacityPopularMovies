@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">Movies</string>
+    <string name="movie_image">Movie Image here</string>
+
+    <!-- Strings for Settings Menu -->
+
+    <string name="sort_order_popular">Sort by Most Popular</string>
+    <string name="sort_order_rated">Sort by Top Rated</string>
+
+    <!-- Strings for Movie Detail Layout Activity  -->
+    <string name="movie_detail">Movie Details</string>
+    <string name="movie_title">Movie Title</string>
+    <string name="movie_poster_hint"> Movie Poster Here</string>
+    <string name="movie_release_date">Release Date = 2015 </string>
+    <string name="movie_rating">Movie Rating = 85%</string>
+    <string name="movie_synopsis">This is the plot synopsis of the movie for which this is the detailing page</string>
+</resources>
